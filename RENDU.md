@@ -1,12 +1,5 @@
 # Rendu : e-hasler
 
-- Dépôt : https://github.com/e-hasler/tp-git-qqch/
-- Site GitHub Pages : https://e-hasler.github.io/tp-git-qqch/
-
-## Ex2
-git log --oneline :
-# Rendu : e-hasler
-
 - Dépôt : tp-git-qqch
 - Site GitHub Pages :
 
