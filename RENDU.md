@@ -5,6 +5,13 @@
 
 ## Ex2
 git log --oneline :
+# Rendu : e-hasler
+
+- Dépôt : tp-git-qqch
+- Site GitHub Pages :
+
+## Ex2
+git log --oneline :
 308054c (HEAD -> main, origin/main) ex2: corrige une faute
 3079c07 ex2: crée les notes
 abfdfe6 ex1: initialise le dépôt
@@ -12,7 +19,12 @@ abfdfe6 ex1: initialise le dépôt
 ## Ex3
 - config.local est-il encore dans l'historique ? Pourquoi ?
 Oui il y est encore car il a été commit au moins une fois avant d'être untracked. C'est à partir du moment où on arrête de le suivre que ses versions cessent d'être consultables.
+## Ex3
+- config.local est-il encore dans l'historique ? Pourquoi ?
+Oui il y est encore car il a été commit au moins une fois avant d'être untracked. C'est à partir du moment où on arrête de le suivre que ses versions cessent d'être consultables.
 
+## Ex4
+- git status après avoir retiré brouillon.txt du staging :
 ## Ex4
 - git status après avoir retiré brouillon.txt du staging :
 On branch main
