@@ -50,3 +50,47 @@ git pull = git fetch + git merge
 
 ## Ex10
 git log --oneline --graph --all :
+* 60cd8e8 (HEAD -> main, tag: v1.0, origin/main, origin/HEAD) repondre aux questions 1 - 7
+* 2046eb0 correct RENDU
+* 210963a (tag: rendu) ex10: complète le rendu
+* 5c62a99 add link to my website
+* 3dd5cf6 ex9: ajoute la page d'accueil
+*   5aeec45 Merge pull request #1 from e-hasler/feature-contact
+|\  
+| * 80b1503 (origin/feature-contact, feature-contact) ex8: ajoute la page contact
+|/  
+* 3d2ccaa ex7: ajoute la ligne en cours
+* 8fff74e commit changes sur RENDU.md pour pouvoir stash pop
+* bcaaef2 découverte du template RENDU.md ^^'
+| * 9b8d349 (refs/stash) WIP on main: 80e5bb5 Revert "ex7: ajoute une ligne par erreur"
+|/| 
+| * 611546b index on main: 80e5bb5 Revert "ex7: ajoute une ligne par erreur"
+|/  
+* 80e5bb5 Revert "ex7: ajoute une ligne par erreur"
+* 9267c1b ex7: ajoute une ligne par erreur
+*   f85dd8d ex6: résout le conflit du titre
+|\  
+| * 4f0a773 (origin/version-en) ex6: titre en anglais
+* |   f3528f2 ex6: fusionne fr
+|\ \  
+| |/  
+|/|   
+| * 0072e10 (origin/version-fr) ex6: titre en français
+|/  
+*   d38298f ex5: fusionne feature-menu
+|\  
+| * 3be9cf3 (origin/feature-menu) ex5: ajoute un dessert
+| * e8f4434 ex5: crée le menu
+|/  
+* e8fd3bd ex4: ajoute trois fichiers
+* ef2a856 ex3: arrête de suivre config.local
+* 8c1f12b ex3: arrête de suivre config.local
+* 95ce52d ex3: ajoute config.local (erreur)
+* 743b183 ex3: ajoute .gitignore
+* 308054c ex2: corrige une faute
+* 3079c07 ex2: crée les notes
+* abfdfe6 ex1: initialise le dépôt
+
+
+git config --global alias.lg "log --oneline --graph --all"
+git tag -a v1.0 -m "mon message de tag annotation"   
