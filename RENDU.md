@@ -1,7 +1,7 @@
 # Rendu : e-hasler
 
-- Dépôt : tp-git-qqch
-- Site GitHub Pages :
+- Dépôt : https://github.com/e-hasler/tp-git-qqch
+- Site GitHub Pages : https://e-hasler.github.io/tp-git-qqch/
 
 ## Ex2
 git log --oneline :
@@ -12,12 +12,7 @@ abfdfe6 ex1: initialise le dépôt
 ## Ex3
 - config.local est-il encore dans l'historique ? Pourquoi ?
 Oui il y est encore car il a été commit au moins une fois avant d'être untracked. C'est à partir du moment où on arrête de le suivre que ses versions cessent d'être consultables.
-## Ex3
-- config.local est-il encore dans l'historique ? Pourquoi ?
-Oui il y est encore car il a été commit au moins une fois avant d'être untracked. C'est à partir du moment où on arrête de le suivre que ses versions cessent d'être consultables.
 
-## Ex4
-- git status après avoir retiré brouillon.txt du staging :
 ## Ex4
 - git status après avoir retiré brouillon.txt du staging :
 On branch main
@@ -46,9 +41,12 @@ annuler une modification = le ficher est modifié localement
 - git stash list (avant récupération) :
 stash@{0}: WIP on main: 80e5bb5 Revert "ex7: ajoute une ligne par erreur"
 - Pourquoi annuler un commit plutôt que l'effacer de l'historique ?
+Si on annule un commit avec git revert, on crée un nouveau commit qui annule l'action du commit problématique donc le commit problématique est toujours visible dans notre historique pour un meilleur suivi (et pour éviter les conflits)
+Si on fait git reset, on demande à git d'ignorer notre/nos dernier(s) commit(s) ce qui peut causer des conflits notamment si on travaille collaborativement
 
 ## Ex8
 - git pull = git fetch + quoi ?
+git pull = git fetch + git merge
 
 ## Ex10
 git log --oneline --graph --all :
