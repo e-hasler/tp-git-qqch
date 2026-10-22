@@ -39,6 +39,7 @@ annuler une modification = le ficher est modifié localement
 
 ## Ex7
 - git stash list (avant récupération) :
+stash@{0}: WIP on main: 80e5bb5 Revert "ex7: ajoute une ligne par erreur"
 - Pourquoi annuler un commit plutôt que l'effacer de l'historique ?
 
 ## Ex8
